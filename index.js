@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('🚀 Version 3 deployed');
+  res.send('🚀 Version 4 deployed');
 });
 
 app.get('/health', (req, res) => {

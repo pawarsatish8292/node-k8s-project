@@ -8,11 +8,6 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git branch: 'main', url: 'https://github.com/pawarsatish8292/node-k8s-project.git'
-            }
-        }
 
         stage('Build') {
             steps {

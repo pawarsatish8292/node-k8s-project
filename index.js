@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send(' Version 2 deployed via Jenkins + Helm');
+  res.send('🚀 Version 3 deployed');
 });
 
 app.get('/health', (req, res) => {

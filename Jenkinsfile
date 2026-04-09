@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/pawarsatish8292/node-k8s-project.git'
+                git branch: 'main', url: 'https://github.com/pawarsatish8292/node-k8s-project.git'
             }
         }
 
